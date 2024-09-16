@@ -59,8 +59,8 @@ impl ApplicationHandler for App {
             println!("\n");
 
             println!("median /  8 (128hz): {:>5.2}", median as f64 / 8.);
-            println!("median / 16 (256hz): {:>5.2}", median as f64 / 16.);
-            println!("median / 32 (512hz): {:>5.2}", median as f64 / 32.);
+            println!("median /  4 (256hz): {:>5.2}", median as f64 / 4.);
+            println!("median /  2 (512hz): {:>5.2}", median as f64 / 2.);
             event_loop.exit();
         }
     }
